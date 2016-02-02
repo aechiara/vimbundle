@@ -15,4 +15,4 @@
 	url = https://github.com/nvie/vim-flake8.git
 [submodule "bundle/snipmate.vim"]
 	path = bundle/snipmate.vim
-	url = https://github.com/msanders/snipmate.vim.git
+	url = https://github.com/garbas/vim-snipmate
