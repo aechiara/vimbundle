@@ -10,10 +10,10 @@ Current list of modules:
 
 | Module | URL |
 | --- | --- |
-|pathogen|https://github.com/tpope/vim-pathogen|
-|jedi-vim|https://github.com/davidhalter/jedi-vim|
-|nerdtree|https://github.com/scrooloose/nerdtree|
-|powerline|https://github.com/Lokaltog/vim-powerline|
-|vim-flake8|https://github.com/nvie/vim-flake8|
-|vim-fugitive|https://github.com/tpope/vim-fugitive|
-|vim-snipmate|https://github.com/garbas/vim-snipmate|
+| pathogen |https://github.com/tpope/vim-pathogen|
+| jedi-vim |https://github.com/davidhalter/jedi-vim|
+| nerdtree |https://github.com/scrooloose/nerdtree|
+| powerline |https://github.com/Lokaltog/vim-powerline|
+| vim-flake8 |https://github.com/nvie/vim-flake8|
+| vim-fugitive |https://github.com/tpope/vim-fugitive|
+| vim-snipmate |https://github.com/garbas/vim-snipmate|
