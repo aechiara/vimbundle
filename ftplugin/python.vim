@@ -14,8 +14,8 @@ let g:jedi#show_call_signatures = "1"
 
 
 " Template file for new python files
-"autocmd bufnewfile *.py 0r ~/.vim/templates/python/default.template
 "autocmd BufNewFile test*.py 0r ~/.vim/templates/python/test.template
+autocmd bufnewfile *.py 0r ~/.vim/templates/python/default.template
 
 " ------------- Shortcuts
 " Python
@@ -30,8 +30,6 @@ noremap <C-b> :!clear && python $VIRTUAL_ENV/manage.py test<CR>
 " Flake8
 "autocmd BufWritePost *.py call Flake8()
 
-colorscheme darkblue
-
 " --- intelisense menu color
 highlight Pmenu ctermfg=Black ctermbg=Grey cterm=None guifg=White guibg=DarkBlue
 highlight PmenuSel ctermfg=White ctermbg=Blue cterm=Bold guifg=White guibg=DarkBlue gui=Bold
@@ -39,8 +37,10 @@ highlight PmenuSel ctermfg=White ctermbg=Blue cterm=Bold guifg=White guibg=DarkB
 "highlight PmenuSel ctermfg=7 ctermbg=4 guibg=#555555 guifg=#ffffff
 highlight Visual ctermfg=White ctermbg=Black guifg=#8080ff guibg=fg gui=reverse
 
+autocmd SessionLoadPost * hi User1 guifg=#112005 guibg=#009099
+
 set cursorline
-set number
+set relativenumber
 
 set laststatus=2
 
@@ -64,4 +64,3 @@ if 'VIRTUAL_ENV' in os.environ:
 EOF
 endif
 
-autocmd SessionLoadPost * hi User1 guifg=#112005 guibg=#009099

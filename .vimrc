@@ -1,6 +1,5 @@
 set nocompatible
 
-set laststatus=2
 set noshowmode
 
 syntax enable,on
@@ -58,8 +57,6 @@ set title
 " PASTE MODE
 set pastetoggle=<F2>
 
-" Template file for new python files
-autocmd bufnewfile *.py 0r ~/.vim/templates/python/default.template
 
 "folding settings
 set foldmethod=indent   "fold based on indent
@@ -67,14 +64,17 @@ set foldnestmax=10      "deepest fold is 10 levels
 set nofoldenable        "dont fold by default
 set foldlevel=1         "this is just what i use
 
-
 execute pathogen#infect()
 
 "NerdTree
 noremap <C-n> :NERDTreeToggle<CR>
 
 " powerline color fix
-autocmd SessionLoadPost * hi User1 guifg=#112005 guibg=#009099
+"autocmd SessionLoadPost * hi User1 guifg=#112005 guibg=#009099
 set laststatus=2
 
+set relativenumber
+set showcmd
 
+"colorscheme darkblue
+colorscheme obsidian
