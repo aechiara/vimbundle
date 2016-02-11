@@ -37,6 +37,10 @@ highlight PmenuSel ctermfg=White ctermbg=Blue cterm=Bold guifg=White guibg=DarkB
 "highlight PmenuSel ctermfg=7 ctermbg=4 guibg=#555555 guifg=#ffffff
 highlight Visual ctermfg=White ctermbg=Black guifg=#8080ff guibg=fg gui=reverse
 
+" Python syntax Comment color
+"hi Comment  guifg=#80a0ff ctermfg=darkred
+hi Comment  guifg=#80a0ff ctermfg=darkgray
+
 autocmd SessionLoadPost * hi User1 guifg=#112005 guibg=#009099
 
 set cursorline
