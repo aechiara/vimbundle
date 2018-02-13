@@ -17,3 +17,4 @@ Current list of modules:
 |vim-flake8|https://github.com/nvie/vim-flake8|
 |vim-fugitive|https://github.com/tpope/vim-fugitive|
 |vim-snipmate|https://github.com/garbas/vim-snipmate|
+|vim-go|https://github.com/fatih/vim-go.git|
