@@ -74,7 +74,22 @@ noremap <C-n> :NERDTreeToggle<CR>
 set laststatus=2
 
 set relativenumber
+let g:relative_number = 1
 set showcmd
 
 "colorscheme darkblue
 colorscheme obsidian
+
+
+" Toggle relativenumber
+function! ToggleRelativeNumber()
+    if exists("g:relative_number") && g:relative_number == 1
+        set norelativenumber
+        let g:relative_number = 0
+    else
+        set relativenumber
+        let g:relative_number = 1
+    endif
+endfunction
+
+nmap <F5> :call ToggleRelativeNumber()<CR>
