@@ -50,8 +50,9 @@ set wildignore=*.swp,*.bak,*.pyc,*.class
 " change terminal title
 set title
 
-"set list
-"set listchars=tab:>.,trail:.,extends:#,nbsp:.
+set list
+set listchars=tab:>.,trail:.,extends:#,nbsp:.
+"set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 "autocmd filetype html,xml set listchars-=tab:>.
 
 " PASTE MODE

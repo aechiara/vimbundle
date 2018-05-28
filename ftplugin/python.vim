@@ -1,7 +1,7 @@
 " jedi-vim
 "let g:jedi#auto_initialization = 1
 "let g:jedi#auto_vim_configuration = 1
-" let g:jedi#use_tabs_not_buffers = 0
+"let g:jedi#use_tabs_not_buffers = 0
 let g:jedi#popup_on_dot = 0
 let g:jedi#popup_select_first = 0
 let g:jedi#goto_assignments_command = "<leader>g"
@@ -11,6 +11,7 @@ let g:jedi#usages_command = "<leader>n"
 let g:jedi#completions_command = "<C-Space>"
 let g:jedi#rename_command = "<leader>r"
 let g:jedi#show_call_signatures = "1"
+let g:jedi#smart_auto_mappings = 0
 
 
 " Template file for new python files
@@ -43,6 +44,7 @@ hi Comment  guifg=#80a0ff ctermfg=darkgray
 
 autocmd SessionLoadPost * hi User1 guifg=#112005 guibg=#009099
 
+"set cursorcolumn
 set cursorline
 set relativenumber
 
