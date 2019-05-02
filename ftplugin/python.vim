@@ -21,7 +21,7 @@ autocmd bufnewfile *.py 0r ~/.vim/templates/python/default.template
 " ------------- Shortcuts
 " Python
 noremap <C-K> :!ipython<CR>
-noremap <C-L> :!python %<CR>
+noremap <C-L> :!python3 %<CR>
 
 noremap <F8> :!nosetests --rednose %<CR>
 
